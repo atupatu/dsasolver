@@ -54,8 +54,9 @@ export function AlgorithmCards() {
                   <Image
                     src={algorithm.image}
                     alt={algorithm.title}
-                    layout="fill"
-                    objectFit="cover"
+                    width={300} // Added width
+                    height={200} // Added height
+                    style={{ objectFit: "cover" }} // Replaced objectFit="cover" with inline style
                     className="transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
