@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Algorithm Visualizer",
+  title: "CodeCrux",
   description: "Explore and learn algorithms through visualization.",
 };
 

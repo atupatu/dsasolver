@@ -47,8 +47,8 @@ export function AlgorithmCards() {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
       {algorithms.map((algorithm) => (
         <div key={algorithm.id} className="relative h-[26rem]">
-          <PinContainer title={algorithm.title} href={`/AlgorithmVisualizer/${algorithm.id}`}>
-            <Link href={`/AlgorithmVisualizer/${algorithm.id}`} className="block group">
+          <PinContainer title={algorithm.title} href={`/${algorithm.id}`}>
+            <Link href={`/${algorithm.id}`} className="block group">
               <div className="flex flex-col w-96 h-80 p-4 rounded-lg border-4 border-violet-500 bg-transparent">
                 <div className="relative h-48 w-full overflow-hidden rounded-lg">
                   <Image
